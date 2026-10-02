@@ -42,6 +42,29 @@ void OnStart()
             condition = false;
          }
       }*/
+      
+      //Do-While Operator
+      /*bool condition = false;
+      int countDown = 5;
+      
+      do {
+         Print(countDown);
+         countDown--;
+         if (countDown == 0){
+            condition = false;
+         }
+      } while(condition);*/
+      
+      
+      //For Operator
+      /*for(int countDown = 5; countDown!=0; countDown--){
+         
+         if (countDown == 3){
+            continue;
+         }
+         
+         Print(countDown);
+      }*/
    
   }
 
